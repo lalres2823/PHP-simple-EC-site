@@ -2,7 +2,7 @@
  
 PHPのスクラッチで作成したECサイトとフレームワークのlaravelで作成した問い合わせフォームです。
 
-PHP　ECサイト
+【PHP　ECサイト】
 
 1.フォルダ EC_body…ECサイトの本体
 EC_login.php…ログイン画面
@@ -22,7 +22,8 @@ product_register.php…製品登録画面
 product_confirm.php…製品登録確認画面
 product_complete.php…製品登録完了画面
 
-laravel 問い合わせフォーム
+【laravel 問い合わせフォーム】
+
 1.フォルダ forms…viewのフォルダ
 input.blade.php…問い合わせ内容入力画面
 confirm.blade.php…問い合わせ内容確認画面
