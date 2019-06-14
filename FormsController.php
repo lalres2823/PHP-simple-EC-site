@@ -82,16 +82,4 @@ class FormsController extends Controller
   }
 
 }
-
-//スコープ定義演算子
-// public function input(Request $moji)
-// {
-//     $data1 = $moji::all();
-//     //all()で裏の配列を返す。
-//     //dd($data1);exit();POSTにデータが入っていることを確認済み
-//     return view('forms/confirm',compact('data1'));
-//     //これはgetのアクセス。
-//     //compact()で値を受け渡す
-// }
-
 ?>
