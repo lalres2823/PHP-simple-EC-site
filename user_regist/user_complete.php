@@ -4,17 +4,10 @@ if(!$_SESSION){
   header('Location: ./user_register.php');
   }
 
-// if(isset($_POST['complete'])){
-//   if('value'=="submit"){
-//   //header('Location: http://localhost/EC/user_regist/user_complete.php');ログイン後トップページが作成できたらリンクを入れる。
-//   exit();
-//   }
-
 if(isset($_POST['back_home'])){
   header('Location: http://localhost/EC/user_regist/user_register.php');
   exit();
   }
-// }
 ?>
 
 <!DOCTYPE HTML PUBLIC"-//W3C//DTD HTML 4.01 Transitional//EN">
