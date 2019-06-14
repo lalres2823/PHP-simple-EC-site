@@ -3,20 +3,6 @@ session_start();
 $SESSION_['userEmail']='';
 $errorMessage=array('userEmail'=>'','userPassword'=>'');
 
-
-
-
-//ログアウト処理
-// if($SESSION_['userEmail']!=''){
-// if(isset($_POST['logout'])){
-//   $SESSION_['userEmail']='';
-//   echo 'ログアウトしました。';
-// }
-// }
-
-
-
-
 //ログインボタンが押された際の処理
 if(isset($_POST['login'])){
   //バリデーション
