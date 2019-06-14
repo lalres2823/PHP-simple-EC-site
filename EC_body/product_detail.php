@@ -6,9 +6,6 @@ if(empty($_SESSION['userEmail'])){
 
 
 //postの値があるときのみSESSIONに格納。
-// $_SESSION=$_POST;
-// echo $_POST['hiddenName'];
-// exit();
 if(!empty($_POST['hiddenName'])){
 $_SESSION['hiddenId']=$_POST['hiddenId'];
 $_SESSION['hiddenName']=$_POST['hiddenName'];
