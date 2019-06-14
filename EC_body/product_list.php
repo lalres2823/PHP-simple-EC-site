@@ -4,20 +4,6 @@ if(empty($_SESSION['userEmail'])){
   header('Location: http://localhost/EC/EC_body/EC_login.php');
 }
 
-//ログインページ以外から来た場合の処理
-//
-// if($_SESSION['userEmail']==''){
-//   echo 'ログインしてください。';
-//   echo '<br>';
-//   echo '<form method="POST" action = "">';
-//   echo '<button type="submit" name="login">ログインする</button>';
-//   echo '</form>';
-//   echo '<br>';
-//   if(isset($_POST['login'])){
-//     echo '<script>location.href="http://localhost/form/kadai2/login.php";</script>';
-//   }
-//   exit();
-// }
 
 //ログアウトを押した際の処理
 if(isset($_POST['logout'])){
