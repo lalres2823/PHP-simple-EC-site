@@ -1,4 +1,4 @@
-# PHP-simple-EC-site & laravel inquiry form
+# PHP-simple-EC-site & laravel-inquiry-form
  
 PHPのスクラッチで作成したECサイトとフレームワークのlaravelで作成した問い合わせフォームです。
 
