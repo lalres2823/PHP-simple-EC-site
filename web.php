@@ -28,31 +28,4 @@ Route::post('/confirm','FormsController@confirm');
 
 Route::post('/complete','FormsController@complete');
 
-//Route::post('/complete','FormsController@complete');
-//これはファーム画面からPOST送信したときのルーティンgぬ
-//コンプリートからもgetで画面を表示する。
-
-
-
-//confirm画面でのルーティング
-// Route::get('/complete', function () {
-//      return view('forms/complete');
-     // SESSION()->put(['name' => 'ちゃんとセッションに入れた名前:大将']);
-     // return SESSION()->all;
-// });
-
-//実験的に格納してみたsession
-//Session::put('subname','仮に入れたセッション');
-//confirmでpostをsessionに格納する
-// Route::controller('/session','Sessioncontroller');
-
-//
-// Route::get('/confirm', function() {
-//     return view('forms/confirm');
-// });
-//
-// Route::get('/complete', function () {
-//     return view('forms/complete');
-// });
-
 ?>
